@@ -80,7 +80,7 @@ public class UserTest {
         Item item2 = new Item("name2", "description2", null);
         user.add(item);
         user.add(item2);
-        assertEquals(1, user.todolist.items.length);
+        assertEquals(2, user.todolist.items.length);
     }
 
     //test items with more than 1000 characters
